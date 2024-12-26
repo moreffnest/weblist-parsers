@@ -19,9 +19,7 @@ import java.util.Objects;
 import java.util.Set;
 
 public class YoutubeHistoryParser {
-    public static void main(String[] args) throws InvalidFileExtensionException, IOException {
-        save(parse("D:\\Documents\\ythistory.html"));
-    }
+
     private static final SimpleDateFormat FORMATTER = new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss");
     public enum FileType {JSON, HTML}
 
